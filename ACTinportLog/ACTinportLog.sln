@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACTinportLog", "ACTinportLo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACTimportLog", "ACTimportLog\ACTimportLog.csproj", "{21EFE076-AF9F-47CD-AD51-7801C612222B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACTLogActionChecker", "ACTLogActionChecker\ACTLogActionChecker.csproj", "{9B678325-A3FA-46C5-963E-203AF2DFE537}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{21EFE076-AF9F-47CD-AD51-7801C612222B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21EFE076-AF9F-47CD-AD51-7801C612222B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21EFE076-AF9F-47CD-AD51-7801C612222B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B678325-A3FA-46C5-963E-203AF2DFE537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B678325-A3FA-46C5-963E-203AF2DFE537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B678325-A3FA-46C5-963E-203AF2DFE537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B678325-A3FA-46C5-963E-203AF2DFE537}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
