@@ -33,7 +33,8 @@ namespace ACTinportLog
             {
                 string[] logs = item.Split(',');
                 Thread.Sleep(int.Parse(logs[0]));
-                ActGlobals.oFormActMain.ParseRawLogLine(true ,new DateTime.Now, logs[1]);
+
+                ActGlobals.oFormActMain.ParseRawLogLine(true ,DateTime.Now, logs[1]);
 
                 Console.WriteLine(item);
             }
@@ -48,7 +49,7 @@ namespace ACTinportLog
         public List<string> textRead()
         {
              List<string> LogList = new List<string>();
-            StreamReader sr = new StreamReader(@"C:\Users\tendo\Downloads\log\絶アレキの今日のlog.txt", Encoding.GetEncoding("Shift_JIS"));
+            StreamReader sr = new StreamReader(@"C:\Users\tendo\Downloads\log\絶アレキの今日のlog2.txt", Encoding.GetEncoding("Shift_JIS"));
             DateTime dateTime2 = DateTime.Now;
             int cnt = 0;
 
@@ -65,6 +66,7 @@ namespace ACTinportLog
                 if (cnt == 0 )
                 {
                     dateTime2 = dTime;
+                    LogList.Add("0," + log);
                 }
                 else
                 {
